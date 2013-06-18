@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\artemis">
+      <UniqueIdentifier>{59df7b71-cffd-4c3f-8cc6-f3e3a0bc5083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\artemis">
+      <UniqueIdentifier>{6eec339e-a08f-47d1-8f16-a1f218eedc01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MovementSystem.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PositionComponent.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\VelocityComponent.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\EntitySystem.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\GroupManager.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\SystemBitManager.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\SystemManager.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\TagManager.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\World.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\Component.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\ComponentType.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\ComponentTypeManager.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\DelayedEntityProcessingSystem.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\DelayedEntitySystem.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\Entity.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\EntityManager.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\artemis\EntityProcessingSystem.cpp">
+      <Filter>Archivos de código fuente\artemis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\MovementSystem.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PositionComponent.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\VelocityComponent.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\SystemManager.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\TagManager.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\TypeInfoComparator.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\World.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\BitSize.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\Component.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\ComponentMapper.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\ComponentType.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\ComponentTypeManager.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\DelayedEntityProcessingSystem.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\DelayedEntitySystem.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\Entity.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\EntityManager.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\EntityProcessingSystem.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\EntitySystem.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\GroupManager.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\ImmutableBag.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\artemis\SystemBitManager.h">
+      <Filter>Archivos de encabezado\artemis</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
